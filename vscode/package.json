@@ -746,6 +746,7 @@
   },
   "devDependencies": {
     "@types/diff": "^6.0.0",
+    "@types/jsesc": "^3.0.3",
     "@types/uuid": "^10.0.0",
     "@types/vscode": "^1.93.0",
     "@vscode/test-cli": "^0.0.10",
@@ -758,7 +759,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@types/jsesc": "^3.0.3",
     "diff": "^7.0.0",
     "jsesc": "^3.1.0"
   }
