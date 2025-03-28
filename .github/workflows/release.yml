@@ -132,7 +132,7 @@ jobs:
   release:
     name: Final Release
     runs-on: ubuntu-latest
-    needs: [package, generate_changelog]
+    needs: [test_the_release, package, generate_changelog]
     steps:
       - name: Add release details to the step summary
         run: |
